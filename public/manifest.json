@@ -1,9 +1,55 @@
 {
-  "name": "Advanced React DomoApp",
-  "version": "0.0.1",
+  "name": "todoapp",
+  "version": "1.0.0",
   "size": {
-    "width": 3,
-    "height": 3
+    "width": 1,
+    "height": 1
   },
-  "mapping": []
+  "collections": [
+    {
+      "name": "todos",
+      "schema": {
+        "columns": [
+          {
+            "name": "title",
+            "type": "STRING"
+          },
+          {
+            "name": "notes",
+            "type": "STRING"
+          },
+          {
+            "name": "url",
+            "type": "STRING"
+          },
+          {
+            "name": "date",
+            "type": "DATE"
+          },
+          {
+            "name": "time",
+            "type": "DATETIME"
+          },
+          {
+            "name": "priority",
+            "type": "STRING"
+          },
+          {
+            "name": "checked",
+            "type": "LONG"
+          }
+        ]
+      }
+    }
+  ],
+  "mapping": [
+    {
+      "dataSetId": "eabf3212-deee-4b6d-98d7-90a02791c80e",
+      "alias": "todos",
+      "fields": []
+    }
+  ],
+  "proxyId": "2f19e0ef-5040-415b-9f73-79445a339bed",
+  "fileName": "manifest.json",
+  "id": "76557082-ce67-436e-a870-1c76bf351a4c"
 }

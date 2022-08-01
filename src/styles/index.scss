@@ -14,3 +14,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.half-a-border-on-top {
+  position: relative;
+  padding-top: 1rem;
+}
+.half-a-border-on-top:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 30%;
+
+  border-top: 4px solid #fb8d34;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.overlay-container {
+  background-color: #fafafa;
+  width: 100%;
+  top: 170px;
+  height: 100%;
+  border-radius: 25px 25px 0px 0px;
+  padding: 1.3rem;
+}
+
+.MuiOutlinedInput-root {
+  flex-direction: row-reverse;
+  background-color: white;
+  border-radius: 15px !important;
+}
+
+.MuiToggleButton-root {
+  text-transform: capitalize !important;
+}
+
+.white-container {
+  background-color: #ffffff;
+  padding: 1.55rem;
+  border-radius: 15px;
+  border: 1px solid #f3f3f3;
+}
+a {
+  color: white;
+}
